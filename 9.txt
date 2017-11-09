@@ -1,0 +1,40 @@
+Last week: Huffman compression (prefix codes, prefix free codes, sum of c frequencies time length). 
+
+G = (V, E),
+
+V = vertices, 
+
+E = edge 
+
+E contains V x V
+
+(u,v) belongs to E (head tail). 
+
+DIRECTED
+
+
+E now is set (u, v)
+degree of vertex is the # of neighbors
+
+all vertices are reachable, u is reachable. These are connected v's. 
+Strongly connected components are the set such that it's connected to u  and that v is re-reachable. All v's by default are strongly connected to themselves. 
+
+A cycle is a nonempty path from a vertex to itself. 
+Tree is a connected graph with no cycles
+
+Distance is the shortest edge count in between. 
+
+BREADTH FIRST SEARCH
+
+Given a source vertex, computer all the distances from S (for all reachable vertices). From here, we can make a tree from the graph. 
+
+Adjacency matric is a 1 if connected and 0 if not. Adjacency list can be shorter though.
+
+BFS(graph, source)
+grey = traversed
+black = vertices already covered
+white = unexplored
+
+for all vertices:
+	is white
+	
