@@ -35,5 +35,5 @@ in_order_tree_walk(x): # x is the root at the tree
 		in_order_tree_walk(x.right)
 
 
-Best case is dominated by in-order traversal, resulting in O(n).
+Best case is dominated by constructing the tree, resulting in O(nlogn).
 Worst case is dominated by constructing the tree, resulting in O(n^2)
